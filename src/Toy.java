@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
  *
  * @author Fahad Satti
  */
-public class Toy implements java.io.Serializable  {
+public class Toy  {
     private int UID;
     private String name;
     private transient int price;

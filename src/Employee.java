@@ -5,7 +5,7 @@
  *
  * @author Fahad Satti
  */
-public class Employee implements java.io.Serializable  {
+public class Employee  {
     private String name;
     private int UID;
     private Email email;

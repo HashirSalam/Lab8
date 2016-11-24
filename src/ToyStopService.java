@@ -87,14 +87,14 @@ public class ToyStopService implements java.io.Serializable {
     }
 
     //Only creates a new employee and returns the UID
-    public int addEmployee(){
+    public Employee addEmployee(){
             Employee myEmployee = new Employee();
             
             myEmployee.setRandomName();
             myEmployee.setEmail(myEmployee.getName()+"@toystop.org");
             myEmployee.setUID(employees.size()+1);
             employees.add(myEmployee);
-            return myEmployee.getUID();
+            return myEmployee;
     }
     
     //Creates a new store

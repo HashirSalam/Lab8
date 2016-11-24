@@ -5,7 +5,7 @@
  *
  * @author Fahad Satti
  */
-class Email implements java.io.Serializable  {
+class Email   {
     private String emailAddress;
 
     public String getEmailAddress() {
